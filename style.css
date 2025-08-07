@@ -1,0 +1,16 @@
+#Homebutton {
+    background-image: url("/Images/Night Sky.png");   /* Change to your preferred color */
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;            /* Changes cursor to pointer */
+    transition: background 0.2s;
+    background-size: cover;      /* Makes the image cover the button */
+    background-position: center; /* Centers the image */
+}
+
+#Homebutton:hover {
+    background-image: url("/Images/Sunny Sky.png");
+    background-size: cover;      /* Makes the image cover the button */
+    background-position: center; /* Centers the image */
+}
